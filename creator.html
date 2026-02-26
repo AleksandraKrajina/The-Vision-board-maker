@@ -1,90 +1,14 @@
-<!DOCTYPE html>
-<html lang="sr">
+<!doctype html>
+<html>
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vision Board Maker | Kreator</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <meta http-equiv="refresh" content="0; url=./frontend/index.html" />
+  <title>Moved to Vue frontend</title>
 </head>
-<body data-page="creator">
-  <header class="creator-header">
-    <div class="creator-header-inner">
-      <a href="index.html" class="btn btn-secondary" data-i18n="backLanding">← Nazad na landing</a>
-      <h1 data-i18n="creatorTitle">Vision board kreator</h1>
-      <div class="top-nav-actions">
-        <label class="lang-wrap" for="languageSelect">
-          <span data-i18n="languageLabel">Jezik</span>
-          <select id="languageSelect" aria-label="language select">
-            <option value="sr">Srpski</option>
-            <option value="en">English</option>
-            <option value="de">Deutsch</option>
-          </select>
-        </label>
-        <div class="wallet-wrap">
-          <button id="connectWallet" class="btn btn-primary" data-i18n="connectWallet">Poveži wallet</button>
-          <span id="walletStatus" data-i18n="walletDisconnected">Wallet nije povezan</span>
-        </div>
-      </div>
-    </div>
-  </header>
 
-  <main class="creator-page">
-    <section class="creator">
-      <div class="panel">
-        <h2 data-i18n="boardSettings">Podešavanja board-a</h2>
-
-        <label for="sizePreset" data-i18n="sizeLabel">Veličina board-a</label>
-        <select id="sizePreset">
-          <option value="1920x1080" data-i18n="sizeLaptop">Laptop (1920x1080)</option>
-          <option value="2048x1536" data-i18n="sizeTablet">Tablet (2048x1536)</option>
-          <option value="1170x2532" data-i18n="sizePhone">Telefon (1170x2532)</option>
-          <option value="7016x9933" data-i18n="sizeA1">A1 digital print (7016x9933)</option>
-          <option value="4961x7016" data-i18n="sizeA2">A2 digital print (4961x7016)</option>
-        </select>
-
-        <label for="category" data-i18n="categoryLabel">Kategorija</label>
-        <select id="category">
-          <option value="putovanja" data-i18n="catTravel">Putovanja</option>
-          <option value="posao" data-i18n="catWork">Posao</option>
-          <option value="ljubav" data-i18n="catLove">Ljubav</option>
-          <option value="star" data-i18n="catStar">STAR (centar)</option>
-        </select>
-
-        <label for="imageUrl" data-i18n="urlLabel">URL slike (Pinterest/Google)</label>
-        <input id="imageUrl" type="url" placeholder="https://..." />
-        <div class="button-center">
-          <button id="addUrl" class="btn btn-primary" data-i18n="addLink">Dodaj sa linka</button>
-        </div>
-
-        <label for="localFile" data-i18n="localLabel">Ili dodaj sa računara</label>
-        <input id="localFile" type="file" accept="image/*" />
-
-        <div class="button-center">
-          <button id="downloadBoard" class="btn btn-secondary" data-i18n="downloadBoard">Preuzmi screenshot board-a</button>
-        </div>
-
-        <div class="groups">
-          <h3 data-i18n="goalGroups">Grupe ciljeva</h3>
-          <ul id="groupList">
-            <li><strong data-i18n="catTravel">Putovanja</strong>: 0</li>
-            <li><strong data-i18n="catWork">Posao</strong>: 0</li>
-            <li><strong data-i18n="catLove">Ljubav</strong>: 0</li>
-            <li><strong data-i18n="catStarShort">STAR</strong>: 0</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="board-wrap">
-        <div id="board" class="board">
-          <p class="board-placeholder" data-i18n="boardPlaceholder">Ovde će se pojaviti tvoje slike ✨</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
+<body>
+  <p>Moved to <a href="./frontend/index.html">frontend/index.html</a>.</p>
 </body>
+
 </html>
